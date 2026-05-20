@@ -20,7 +20,7 @@ I engineered a robust, end-to-end Business Intelligence solution utilizing the f
 * Designed and deployed an optimized **Star Schema** architectural framework.
 * Established rigid one-to-many operational relationships between central `Subscription` fact tables and independent `Customer` and `Date` dimension blocks to preserve data integrity and prevent cross-filtering inflation errors.
 
-  ### 🧮 Advanced DAX Architecture
+### 🧮 Advanced DAX Architecture
 * Authored performant, scalable measures to compute **Running Total Revenue** and **Active Subscriptions** over rolling windows.
 * Utilized targeted `CALCULATE`, `FILTER`, and context-modification logic to evaluate fluid start-and-end subscription states on the fly:
 
